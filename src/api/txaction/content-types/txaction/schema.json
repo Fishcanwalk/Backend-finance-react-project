@@ -4,7 +4,8 @@
   "info": {
     "singularName": "txaction",
     "pluralName": "txactions",
-    "displayName": "txaction"
+    "displayName": "txaction",
+    "description": ""
   },
   "options": {
     "draftAndPublish": false
@@ -18,8 +19,8 @@
     "type": {
       "type": "enumeration",
       "enum": [
-        "income",
-        "expense"
+        "Income",
+        "Expense"
       ],
       "required": true
     },
